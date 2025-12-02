@@ -1,0 +1,95 @@
+@media only screen and (min-width: 1920px){
+    .primary-menu .text {
+        opacity: 1;
+    }
+
+}
+    @media only screen and (max-width: 1024px){
+    .caption {
+        font-size: 26px;
+    }
+    @keyframes stoned {
+        0% {
+            letter-spacing: 1px;
+            filter: blur(0px);
+            left: 24%;
+        }
+        10% {
+            letter-spacing: 1px;
+            filter: blur(0px);
+            left: 24%;
+        }
+        85% {
+            letter-spacing: 6px;
+            filter: blur(3px);
+            left: 25%;
+        }
+        90% {
+            letter-spacing: 1px;
+            filter: blur(0px);
+            left: 24%;
+        }
+        100% {
+            letter-spacing: 1px;
+            filter: blur(0px);
+            left: 24%;
+        }
+    }
+}
+@media only screen and (max-width: 900px){
+    .para2 {
+        display: none;
+    }
+    .toolList li {
+        width: 30%;
+        margin: 30px 1.5%;
+    }
+    .careerList li .content .head {
+        font-size: 22px;
+    }
+    .careerList li, .careerList li:hover {
+        padding: 20px 20px;
+        min-height: 80px;
+        height: auto;
+    }
+}
+@media only screen and (max-width: 768px){
+    .para1 {
+        display: none;
+    }
+    .toolList li {
+        width: 47%;
+    }
+    .careerList li .content .head { font-size: 18px; }
+}
+@media only screen and (max-width: 600px){
+    .powers>div {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .toolList li {
+        display: block;
+        text-align: left;
+
+    }
+    .toolList li .text {
+        padding-left: 0;
+    }
+    .careerList li .content .head { font-size: 12px; }
+    .careerList li {
+        display: block;
+    }
+    .infoList li {width: 48%;}
+    .extraDialogue {display: block;}
+    .extraDialogue .heads {font-size: 20px;}
+    .folioSec {padding: 20px 10px;}
+    .contactSec {padding: 40px 20px;}
+    .contactSec .content {display: block;}
+    .contactSec .text, .contactSec .pic { width: 100%; }
+    .madiyan {display: none;}
+    .contactSec .group .item { font-size: 18px; }
+    p.bigP {font-size: 20px;}
+    .nav-primary { position: absolute; }
+    .primary-menu .text { opacity: 1; }
+    .caption {top: 200px;}
+}

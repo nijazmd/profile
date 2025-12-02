@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>1D Car Directory — Case Study · Nijas Moideen</title>
+  <meta name="description" content="Case study: 1D Car Directory — a social hub for car lovers to manage collections and maintenance." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body class="case-body">
+
+  <!-- Simple header reused -->
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="index.html#top">
+        <img class="brand__avatar" src="img/web-images/profile-pic.png" alt="Avatar of Nijas Moideen" />
+        <span class="brand__name">Nijas Moideen</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html#work">Work</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#experience">Experience</a>
+        <a href="index.html#contact">Contact</a>
+        <a class="btn btn--primary" href="nijas-resume.pdf" download>Download Résumé</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Case hero -->
+  <main class="case">
+    <section class="case-hero">
+      <div class="container">
+        <a class="btn btn--ghost case-back" href="index.html#work">← Back to all work</a>
+
+        <div class="case-hero__content">
+          <div>
+            <p class="kicker">Case Study</p>
+            <h1 class="hero__title case-title">SmartGrow by Bosch</h1>
+            <p class="hero__lead case-lead">
+                A companion app for the SmartGrow device that helps users nurture their indoor plants with guidance, tips, and gentle reminders.
+            </p>
+
+            <div class="case-meta">
+              <div>
+                <h2>Role</h2>
+                <p>Product & UI/UX Designer</p>
+              </div>
+              <div>
+                <h2>Platform</h2>
+                <p>Mobile - Native</p>
+              </div>
+            </div>
+
+            <div class="badges case-tags">
+              <span class="badge">UI & UX</span><span class="badge">Mobile</span><span class="badge">Native</span><span class="badge">Product</span>
+            </div>
+          </div>
+
+          <figure class="case-hero__image">
+            <img src="img/folio/folio-sg.jpg" alt="1D Car Directory overview" />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="case-section">
+      <div class="container">
+        <h2 class="case-section__title">Screens</h2>
+        <p class="case-section__intro"></p>
+
+        <div class="case-gallery">
+          <figure class="case-gallery__item">
+            <img src="img/folio/sg/1.jpg" alt="Garage overview screen" loading="lazy" />
+          </figure>
+          <figure class="case-gallery__item">
+            <img src="img/folio/sg/2.jpg" alt="Garage overview screen" loading="lazy" />
+          </figure>
+          <figure class="case-gallery__item">
+            <img src="img/folio/sg/3.jpg" alt="Garage overview screen" loading="lazy" />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="case-section">
+      <div class="container">
+        <h2 class="case-section__title">What I focused on</h2>
+        <ul class="bullets">
+          <li>Making it easy to browse both old and new models with clear filters.</li>
+          <li>Keeping the garage view simple so owners see what matters at a glance.</li>
+          <li>Using familiar patterns so the app feels friendly even to non-techy users.</li>
+        </ul>
+      </div>
+    </section> -->
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="muted">© <span id="y"></span> Nijas Moideen</span>
+      <a class="btn btn--ghost" href="nijas-resume.pdf" download>Résumé</a>
+    </div>
+  </footer>
+
+  <script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>
